@@ -926,7 +926,7 @@ em { font-style: normal; color: var(--teal-400); }
 
 @media (max-width: 560px) {
   .footer-bottom .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }
