@@ -1,0 +1,5 @@
+# Redirect pages.dev → custom domain (prevents duplicate content)
+https://aaiqo.pages.dev/* https://aaiqo.com/:splat 301!
+
+# www → non-www (canonical)
+https://www.aaiqo.com/* https://aaiqo.com/:splat 301!
